@@ -19,4 +19,9 @@ public class GestorProyectos extends Empleado {
     public void setArea(String area) {
         this.area = area;
     }
+
+    @Override
+    public String getTipoEmpleado() {
+        return "GestorProyectos";
+    }
 }

@@ -48,6 +48,8 @@ public abstract class Empleado {
         this.empresa = empresa;
     }
 
+    public abstract String getTipoEmpleado();
+
     @Override
     public String toString() {
         return "Empleado{" +
